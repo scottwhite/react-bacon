@@ -2,16 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
+import actions from './actions'
 import WeatherList from './weather-list'
-
-const actions = {
-  fetchWeather(latlng){
-    return {
-      type: 'WEATHER_GET_REQUESTED',
-      latlng
-    }
-  }
-}
 
 class Weather extends Component {
   componentDidMount(){

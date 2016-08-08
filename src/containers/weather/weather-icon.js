@@ -1,10 +1,20 @@
 import React from 'react'
-import Skycons from '../skycons'
+import Skycons from '../../skycons'
 
 export class WeatherIcon extends React.Component{
+  _convertColor(name){
+    if(name === 'clear-day'){
+      return 'yellow';
+    }
+    if(name === 'wind'){
+      return 'blue';
+    }
+    return 'gray';
+  }
   componentDidMount(){
     let { id, name } = this.props;
-    let skycons = new Skycons({'color': 'gray'});
+
+    let skycons = new Skycons({'color': this._convertColor(name)});
     skycons.add(id, name);
     skycons.play();
   }

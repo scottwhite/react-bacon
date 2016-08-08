@@ -1,5 +1,5 @@
-import { createStore, combineReducers, applyMiddleware, compose } from 'redux'
-import rootReducer from '../reducers'
+import { createStore, applyMiddleware, compose } from 'redux'
+import rootReducer from './reducers'
 import { routerMiddleware } from 'react-router-redux'
 import createLogger from 'redux-logger'
 import createSagaMiddleware, { END } from 'redux-saga'
