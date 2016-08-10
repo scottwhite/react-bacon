@@ -1,0 +1,319 @@
+exports[`Weather shows an error if error 1`] = `
+<div
+  className="container-fluid">
+  <div
+    className="alert alert-danger">
+    ERROR!
+  </div>
+  <div
+    className="container-fluid">
+    <h2>
+      Weather
+    </h2>
+    <div>
+      
+    </div>
+    <ul
+      className="weather-list" />
+  </div>
+</div>
+`;
+
+exports[`Weather shows the forecast 1`] = `
+<div
+  className="container-fluid">
+  
+  <div
+    className="container-fluid">
+    <h2>
+      Weather
+    </h2>
+    <div>
+      Light rain throughout the week, with temperatures peaking at 93°F on Sunday.
+    </div>
+    <ul
+      className="weather-list">
+      <li
+        onClick={[Function selectWeather]}>
+        <div
+          className="weather-day">
+          Wed Aug 10 2016
+        </div>
+        <canvas
+          height={128}
+          id="1470801600"
+          width={128}>
+          rain
+        </canvas>
+        <div
+          className="weather-summary">
+          Rain in the morning and evening.
+        </div>
+        <div
+          className="weather-temp">
+          <label>
+            Low
+          </label>
+           
+          77.49
+          ° F
+        </div>
+        <div
+          className="weather-temp">
+          <label>
+            High
+          </label>
+           
+          89.64
+          ° F
+        </div>
+      </li>
+      <li
+        onClick={[Function selectWeather]}>
+        <div
+          className="weather-day">
+          Thu Aug 11 2016
+        </div>
+        <canvas
+          height={128}
+          id="1470888000"
+          width={128}>
+          rain
+        </canvas>
+        <div
+          className="weather-summary">
+          Light rain until afternoon, starting again in the evening.
+        </div>
+        <div
+          className="weather-temp">
+          <label>
+            Low
+          </label>
+           
+          76.67
+          ° F
+        </div>
+        <div
+          className="weather-temp">
+          <label>
+            High
+          </label>
+           
+          89.78
+          ° F
+        </div>
+      </li>
+      <li
+        onClick={[Function selectWeather]}>
+        <div
+          className="weather-day">
+          Fri Aug 12 2016
+        </div>
+        <canvas
+          height={128}
+          id="1470974400"
+          width={128}>
+          partly-cloudy-day
+        </canvas>
+        <div
+          className="weather-summary">
+          Partly cloudy until afternoon.
+        </div>
+        <div
+          className="weather-temp">
+          <label>
+            Low
+          </label>
+           
+          77.69
+          ° F
+        </div>
+        <div
+          className="weather-temp">
+          <label>
+            High
+          </label>
+           
+          90.45
+          ° F
+        </div>
+      </li>
+      <li
+        onClick={[Function selectWeather]}>
+        <div
+          className="weather-day">
+          Sat Aug 13 2016
+        </div>
+        <canvas
+          height={128}
+          id="1471060800"
+          width={128}>
+          rain
+        </canvas>
+        <div
+          className="weather-summary">
+          Drizzle in the afternoon.
+        </div>
+        <div
+          className="weather-temp">
+          <label>
+            Low
+          </label>
+           
+          78.66
+          ° F
+        </div>
+        <div
+          className="weather-temp">
+          <label>
+            High
+          </label>
+           
+          92.76
+          ° F
+        </div>
+      </li>
+      <li
+        onClick={[Function selectWeather]}>
+        <div
+          className="weather-day">
+          Sun Aug 14 2016
+        </div>
+        <canvas
+          height={128}
+          id="1471147200"
+          width={128}>
+          rain
+        </canvas>
+        <div
+          className="weather-summary">
+          Light rain in the morning and overnight.
+        </div>
+        <div
+          className="weather-temp">
+          <label>
+            Low
+          </label>
+           
+          81.37
+          ° F
+        </div>
+        <div
+          className="weather-temp">
+          <label>
+            High
+          </label>
+           
+          93.15
+          ° F
+        </div>
+      </li>
+      <li
+        onClick={[Function selectWeather]}>
+        <div
+          className="weather-day">
+          Mon Aug 15 2016
+        </div>
+        <canvas
+          height={128}
+          id="1471233600"
+          width={128}>
+          partly-cloudy-day
+        </canvas>
+        <div
+          className="weather-summary">
+          Partly cloudy throughout the day.
+        </div>
+        <div
+          className="weather-temp">
+          <label>
+            Low
+          </label>
+           
+          79.43
+          ° F
+        </div>
+        <div
+          className="weather-temp">
+          <label>
+            High
+          </label>
+           
+          86.69
+          ° F
+        </div>
+      </li>
+      <li
+        onClick={[Function selectWeather]}>
+        <div
+          className="weather-day">
+          Tue Aug 16 2016
+        </div>
+        <canvas
+          height={128}
+          id="1471320000"
+          width={128}>
+          rain
+        </canvas>
+        <div
+          className="weather-summary">
+          Rain starting in the afternoon.
+        </div>
+        <div
+          className="weather-temp">
+          <label>
+            Low
+          </label>
+           
+          77.84
+          ° F
+        </div>
+        <div
+          className="weather-temp">
+          <label>
+            High
+          </label>
+           
+          87.91
+          ° F
+        </div>
+      </li>
+      <li
+        onClick={[Function selectWeather]}>
+        <div
+          className="weather-day">
+          Wed Aug 17 2016
+        </div>
+        <canvas
+          height={128}
+          id="1471406400"
+          width={128}>
+          rain
+        </canvas>
+        <div
+          className="weather-summary">
+          Light rain until afternoon, starting again in the evening.
+        </div>
+        <div
+          className="weather-temp">
+          <label>
+            Low
+          </label>
+           
+          79.01
+          ° F
+        </div>
+        <div
+          className="weather-temp">
+          <label>
+            High
+          </label>
+           
+          86.35
+          ° F
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

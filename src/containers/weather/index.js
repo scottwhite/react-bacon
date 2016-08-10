@@ -5,9 +5,8 @@ import { bindActionCreators } from 'redux';
 import actions from './actions'
 import WeatherList from './weather-list'
 
-class Weather extends Component {
+export class Weather extends Component {
   componentDidMount(){
-    console.debug(this.props)
     let fetchWeather = this.props.fetchWeather
     let latlng = this.props.params.latlng
     fetchWeather(latlng)
