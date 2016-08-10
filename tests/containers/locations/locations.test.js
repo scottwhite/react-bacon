@@ -54,6 +54,7 @@ describe('Location', () => {
     );
     let tree = component.toJSON();
     expect(tree).toMatchSnapshot()
+    expect(tree.children[0].children[0]).toBe(error)
   })
 
 });
