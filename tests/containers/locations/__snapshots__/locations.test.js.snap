@@ -1,0 +1,91 @@
+exports[`Location has an input that searches 1`] = `
+<div
+  className="container-fluid">
+  <div>
+    Search for a place for weather
+  </div>
+  <input
+    onKeyPress={[Function locationChangeMock]} />
+  <div
+    className="container-fluid">
+    <h2>
+      Places
+    </h2>
+    <ul
+      className="places-list" />
+  </div>
+</div>
+`;
+
+exports[`Location shows a list if places that you can select an item 1`] = `
+<div
+  className="container-fluid">
+  <div>
+    Search for a place for weather
+  </div>
+  <input
+    onKeyPress={undefined} />
+  <div
+    className="container-fluid">
+    <h2>
+      Places
+    </h2>
+    <ul
+      className="places-list">
+      <li>
+        <a
+          onClick={[Function bound selectPlace]}>
+          Washington, DC, United States
+        </a>
+      </li>
+      <li>
+        <a
+          onClick={[Function bound selectPlace]}>
+          Washington Boulevard, Jessup, MD, United States
+        </a>
+      </li>
+      <li>
+        <a
+          onClick={[Function bound selectPlace]}>
+          Washington Monument, Washington, DC, United States
+        </a>
+      </li>
+      <li>
+        <a
+          onClick={[Function bound selectPlace]}>
+          Washington Road, Edgewater, MD, United States
+        </a>
+      </li>
+      <li>
+        <a
+          onClick={[Function bound selectPlace]}>
+          Washington Boulevard, Laurel, MD, United States
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Location shows an error if error 1`] = `
+<div
+  className="container-fluid">
+  <div
+    className="alert alert-danger">
+    ERROR!
+  </div>
+  <div>
+    Search for a place for weather
+  </div>
+  <input
+    onKeyPress={undefined} />
+  <div
+    className="container-fluid">
+    <h2>
+      Places
+    </h2>
+    <ul
+      className="places-list" />
+  </div>
+</div>
+`;

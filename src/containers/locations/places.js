@@ -3,8 +3,8 @@ import './places.css'
 
 export const Places = (props) => {
   let locations = props.locations || []
-  function selectPlace(day){
-    props.onSelected(day.place_id)
+  function selectPlace(place){
+    props.onSelected(place.place_id)
   }
   return (
     <div className='container-fluid'>

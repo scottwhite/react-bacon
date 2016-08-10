@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux';
 import Places from './places';
 import locationActions from './actions'
 
-class Location extends Component {
+export class Location extends Component {
   render() {
     const {error, locations, locationDetails, locationChange} = this.props;
     let err;
