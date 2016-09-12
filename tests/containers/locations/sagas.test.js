@@ -1,10 +1,10 @@
 // import {jest} from 'jest'
-import {places} from '~/mock-data/api.locations.mock'
+import {places} from '../../../mock-data/api.locations.mock'
 import { takeEvery } from 'redux-saga'
 import { fork, take, put, call } from 'redux-saga/effects'
-import {fetchLocations, fetchLocationdetails } from '~/src/containers/locations/sagas'
+import {fetchLocations, fetchLocationdetails } from '../../../src/containers/locations/sagas'
 import nock from 'nock'
-import Api from '~/src/api'
+import Api from '../../../src/api'
 
 nock('http://localhost:3000/').get('/locations/').reply(()=>{
   console.log('say what')

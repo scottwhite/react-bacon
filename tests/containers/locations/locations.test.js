@@ -1,9 +1,9 @@
 import React from 'react';
 import renderer from 'react/lib/ReactTestRenderer';
 
-import {Location} from '~/src/containers/locations/index';
-import locationActions from '~/src/containers/locations/actions'
-import {places} from '~/mock-data/api.locations.mock'
+import {Location} from './../../../src/containers/locations/index';
+import locationActions from './../../../src/containers/locations/actions'
+import {places} from './../../../mock-data/api.locations.mock'
 
 describe('Location', () => {
   it('has an input that searches', () => {

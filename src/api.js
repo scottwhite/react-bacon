@@ -156,11 +156,23 @@ function Api(){
     return send_request(url).then(res => res).catch(err => { throw(err) })
   }
 
+  function load_translations(locale){
+    return new Promise(function(resolve, reject){
+      send_request('locales/' + locale + '/strings.js').then(function(resp){
+        resolve(resp);
+      },function(err){
+        reject(err);
+      });
+    });
+  }
+
+
   this.running = running;
   this.kill = _kill;
   this.locations = locations;
   this.location_details = location_details;
   this.weather = weather;
+  this.load_translations = load_translations;
   return this;
 }
 

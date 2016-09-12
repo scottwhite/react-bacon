@@ -14,13 +14,6 @@ export const locationActions = {
       type: 'LOCATION_DETAILS_GET_REQUESTED',
       placeid
     }
-  },
-  weatherFor(latlng){
-    let path = '/weather/' + latlng
-    return {
-      type: 'ROUTE_TO',
-      path
-    }
   }
 }
 

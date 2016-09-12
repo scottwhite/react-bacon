@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import Places from './places';
-import locationActions from './actions'
+import locationActions from './actions';
+import trans from '../../i18n';
 
 export class Location extends Component {
   render() {
@@ -14,7 +15,7 @@ export class Location extends Component {
     return (
       <div className='container-fluid'>
         {err}
-        <div>Search for a place for weather</div>
+        <div>{trans._t('location.search_weather_label')}</div>
         <input onKeyPress={locationChange} />
         <Places locations={locations || []} onSelected={locationDetails} />
       </div>

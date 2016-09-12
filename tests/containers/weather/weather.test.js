@@ -1,9 +1,9 @@
 import React from 'react';
 import renderer from 'react/lib/ReactTestRenderer';
 
-import {Weather} from '~/src/containers/weather/index';
-import weatherActions from '~/src/containers/weather/actions'
-import {forecast} from '~/mock-data/api.weather.mock'
+import {Weather} from '../../../src/containers/weather/index';
+import weatherActions from '../../../src/containers/weather/actions'
+import {forecast} from '../../../mock-data/api.weather.mock'
 
 describe('Weather', () => {
   it('shows the forecast', () => {
